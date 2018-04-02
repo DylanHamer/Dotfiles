@@ -1,0 +1,10 @@
+# Dylan Hamer's Compton Config
+
+fading = true;
+blur-kern = "7x7box";
+backend = "glx";
+menu-opacity = 0.8;
+blur-background = true;
+inactive-opacity = 0.8;
+# active-opacity = 0.8;
+frame-opacity = 0.7;
