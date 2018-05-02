@@ -1,0 +1,53 @@
+! ******************
+! urxvt config
+! ******************
+
+! Disable Perl extension
+! If you do not use the Perl extension features, you can improve the security
+! and speed by disabling Perl extensions completely. 
+URxvt.perl-ext:
+URxvt.perl-ext-common:
+
+! Font spacing
+! By default the distance between characters can feel too wide. Its controlled
+! by this entry: 
+URxvt.letterSpace:-1
+
+! -- Fonts -- !
+URxvt.font:xft:Menlo:pixelsize=13
+URxvt.boldfont:xft:Menlo:pixelsize=13
+!URxvt*font:  -xos4-terminus-medium-*-*-*-14-*-*-*-*-*-iso8859-15,xft:terminus:pixelsize:12
+!URxvt*boldFont:  -xos4-terminus-bold-*-*-*-14-*-*-*-*-*-iso8859-15,xft:terminus:bold:pixelsize:12
+!URxvt*italicFont:  xft:Bitstream Vera Sans Mono:italic:autohint=true:pixelsize=12
+!URxvt*boldItalicFont:  xft:Bitstream Vera Sans Mono:bold:italic:autohint=true:pixelsize=12
+
+! Colours (Snazzy) 
+! black, red, green, yellow, blue, pink, cyan, white, gray
+urxvt*depth: 32
+urxvt*background: rgba:0000/0000/0200/c800
+URxvt*foreground:   #ededec
+URxvt*cursorColor:   #e4e4e4
+URxvt*color0:   #000
+URxvt*color1:   #fb4245
+URxvt*color2:   #50fa7b
+URxvt*color3:   #f0fa8b
+URxvt*color4:   #49b9fe
+URxvt*color5:   #fb4cb3
+URxvt*color6:   #8be9fd
+URxvt*color7:   #ededec
+URxvt*color8:   #555555
+URxvt*color9:   #fb4245
+URxvt*color10:   #50fa7b
+URxvt*color11:   #f0fa8b
+URxvt*color12:   #49b9fe
+URxvt*color13:   #fb4cb3
+URxvt*color14:   #8be9fd
+URxvt*color15:   #ededec
+
+! Disable scrollbar
+URxvt*scrollBar: false
+!URxvt.scrollstyle: plain
+
+! Transparency
+! URxvt.transparent:   true
+URxvt.shading:       20
